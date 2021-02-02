@@ -1,0 +1,69 @@
+h1{
+    display: flex;
+    justify-content:space-around;
+}
+
+#lists{
+    display: flex;
+    /*flex-direction:row;
+    align-items: center;
+    justify-content: space-around;*/
+    flex-wrap: wrap ;
+    
+}
+
+#first{
+flex: 200px;
+border: 2px  solid  orange;
+margin: 20px;
+}
+
+#second{
+    flex: 200px;
+    border: 2px  solid  orange;
+    margin: 20px;
+}
+
+#third{
+    flex: 200px;
+    border: 2px  solid  orange;
+    margin: 20px;
+}
+
+h2{
+   text-align: center;
+}
+
+.previous {
+    border: none;
+    background-color:orangered;
+    margin: auto;
+    padding: 14px 28px;
+    font-size: 16px;
+    width: 50%;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.next{
+    border: none;
+    background-color:orangered;
+    margin: auto;
+    padding: 14px 28px;
+    font-size: 16px;
+    width: 50%;
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+
+button{
+    text-align: center;
+}
+  
+/*button:hover {
+    background-color: #ddd;
+    color: black;
+}*/
