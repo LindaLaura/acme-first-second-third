@@ -31,12 +31,26 @@ margin: 20px;
 }
 
 h2{
-   text-align: center;
+   margin-left: 130px;
+   padding: 14px 28px;
+   margin-top: 10px;
 }
 
-.previous {
+.previous2 , .previous3 {
     border: none;
     background-color:orangered;
+    margin: auto;
+    padding: 14px 28px;
+    font-size: 16px; 
+    width: 50%;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.previous1 {
+    border: none;
+    background-color: rgb(220, 220, 220);
     margin: auto;
     padding: 14px 28px;
     font-size: 16px;
@@ -46,9 +60,21 @@ h2{
     margin-top: 10px;
 }
 
-.next{
+.next1 , .next2{
     border: none;
     background-color:orangered;
+    margin: auto;
+    padding: 14px 28px;
+    font-size: 16px;
+    width: 50%;
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.next3 {
+    border: none;
+    background-color:  rgb(220, 220, 220);
     margin: auto;
     padding: 14px 28px;
     font-size: 16px;
@@ -67,3 +93,19 @@ button{
     background-color: #ddd;
     color: black;
 }*/
+
+.id1 , .id2, .id3, .id4{
+    border: none;
+    background-color:white;
+    margin: auto;
+    padding: 14px 28px;
+    font-size: 16px;
+    width: 50%;
+    display: block;
+    cursor: pointer;
+    margin-top: 3px; 
+}
+
+.id4{
+    background-color:orangered;
+}
